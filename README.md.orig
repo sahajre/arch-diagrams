@@ -3,7 +3,10 @@
 #1. Trying git push access.
 #2. Trying git push access.
 #3. Trying git push access.
-<<<<<<< HEAD
 #4. Trying git push access.
+#5. Trying git push access.
+#6. Trying git push access via upload file.
+<<<<<<< HEAD
+#7. Trying git push access.
 =======
->>>>>>> 46adb28d0a6a5d47c56d5505e92ad93b388e84a7
+>>>>>>> 9f2e59cec3245779390e51f2540f776fd4bbe29b
