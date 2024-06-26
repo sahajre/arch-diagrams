@@ -1,6 +1,6 @@
-<mxfile modified="2024-06-25T03:23:49.860Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="trh5ybu_XNAbojwU5toe" version="24.6.2" type="github">
+<mxfile modified="2024-06-26T03:13:33.987Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Ab_J37TZu6NusJynqxvt" version="24.6.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2585" dy="1385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -298,6 +298,33 @@
         </mxCell>
         <mxCell id="7OVz4w7n9kzEPWy-4BBC-23" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1221.5" y="1131" width="449" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="moJV0ZJlzhhPKpf39uxp-1" value="Inference Engine" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="1169" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="moJV0ZJlzhhPKpf39uxp-2" value="Llama 3/Mistral" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="moJV0ZJlzhhPKpf39uxp-1">
+          <mxGeometry x="28.5" y="31" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="moJV0ZJlzhhPKpf39uxp-4" value="chatGPT/cla&lt;span style=&quot;background-color: initial;&quot;&gt;ude&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="moJV0ZJlzhhPKpf39uxp-1">
+          <mxGeometry x="28.5" y="111" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="moJV0ZJlzhhPKpf39uxp-6" value="DSPGPT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601.5" y="1380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="moJV0ZJlzhhPKpf39uxp-7" value="Relevance Engne" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="1550" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="moJV0ZJlzhhPKpf39uxp-8" value="OpenSearch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="moJV0ZJlzhhPKpf39uxp-7">
+          <mxGeometry x="29" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moJV0ZJlzhhPKpf39uxp-9" value="Weaviate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="moJV0ZJlzhhPKpf39uxp-7">
+          <mxGeometry x="29" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moJV0ZJlzhhPKpf39uxp-10" value="Vector Embeddings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="606" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moJV0ZJlzhhPKpf39uxp-11" value="Prompt Engineering" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1440" width="217.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
